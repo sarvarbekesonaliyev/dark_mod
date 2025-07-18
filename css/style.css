@@ -20,7 +20,7 @@ body {
 .img {
   width: 25px;
   height: 25px;
-  margin-left: 1550px;
+  margin-left: 1000px;
   align-items: center;
   justify-content: center;
 }
@@ -32,7 +32,7 @@ body {
 .filter {
   width: 30px;
   height: 30px;
-  margin-left: 1740px;
+  margin-left: 1280px;
   align-items: center;
   justify-content: center;
 }
