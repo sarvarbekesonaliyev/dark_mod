@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Cards Grid</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+      <div class="header">
+          <h1>Where in the world?</h1>
+          <img class="img" src="./img/Group 3.svg" alt="" />
+          <p id="toggle-dark-mode">Dark Mode</p>    
+     </div>
+    <div class="content"></div>
+    <div class="filter">
+        <select class="select">
+          <option value="all">Filter by Region</option>
+          <option value="africa">Africa</option>
+          <option value="americas">Americas</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+          <option value="oceania">Oceania</option>
+        </select>
+    </div>
+    <div class="country-grid">
+      <div class="country-card">
+        <img src="./img/germanya.png" alt="Germany" />
+        <h2>Germany</h2>
+        <p>Population: 81,770,900</p>
+        <p>Region: Europe</p>
+        <p>Capital: Berlin</p>
+      </div>
+      <div class="country-card">
+        <img src="./img/amerca.png" alt="USA" />
+        <h2>United States</h2>
+        <p>Population: 327,167,434</p>
+        <p>Region: Americas</p>
+        <p>Capital: Washington D.C.</p>
+      </div>
+      <div class="country-card">
+        <img src="./img/brazila.png" alt="Brazil" />
+        <h2>Brazil</h2>
+        <p>Population: 211,049,527</p>
+        <p>Region: Americas</p>
+        <p>Capital: Brasília</p>
+      </div>
+      <div class="country-card">
+        <img src="./img/Iceland.png" alt="Iceland" />
+        <h2>Iceland</h2>
+        <p>Population: 356,991</p>
+        <p>Region: Europe</p>
+        <p>Capital: Reykjavik</p>
+      </div>
+      <div class="country-card">
+        <img src="./img/Afghanistan.png" alt="Japan" />
+        <h2>Afghanistan</h2>
+        <p>Population: 27,657,145</p>
+        <p>Region: Asia</p>
+        <p>Capital: Kabul</p>
+      </div>
+      <div class="country-card">
+        <img src="./img/iimges.png" alt="South Korea" />
+        <h2>Åland Islands</h2>
+        <p>Population: 28,875</p>
+        <p>Region: Europe</p>
+        <p>Capital: Mariehamn</p>
+      </div>
+      <div class="country-card">
+        <img src="./img/Albania.png" alt="Canada" />
+        <h2>Albania</h2>
+        <p>Population: 2,886,026</p>
+        <p>Region: Europe</p>
+        <p>Capital: Tirana</p>
+      </div>
+      <div class="country-card">
+        <img src="./img/Algeria.png" alt="France" />
+        <h2>Algeria</h2>
+        <p>Population: 40,400,000</p>
+        <p>Region: Africa</p>
+        <p>Capital: Algiers</p>
+      </div>
+    </div>
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-dark-mode');
+    const body = document.body;
+
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+    });
+  </script>
+  </body>
+</html>
